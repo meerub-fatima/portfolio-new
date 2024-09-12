@@ -13,7 +13,7 @@ function Section() {
 
   return (
     <SimpleGrid  columns={ {base : "1",md : "1",lg : "2"} }  p="10"bg="gery.700" zIndex="22"  >
-    <Flex flexDir="column"  justify="center" w={ {base : "100%",md : "100%",lg : "80%"}} >
+    <Flex border="4px solid " flexDir="column"  justify="center" w={ {base : "100%",md : "100%",lg : "80%"}} >
         <Text fontSize="2rem" fontWeight="bold" >Maleeha Usman</Text>
         <Text fontSize="2rem">Hi I am a frontend web developer.</Text>
     <Button border="2px solid gray" bg="yellow.300" _hover={{ w : "18rem", h : "5rem", fontSize :  "2rem",boxShadow: "2xl" }} w="10rem"  transition="all 0.8s ease-in-out">Contact Me</Button>
