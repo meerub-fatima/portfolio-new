@@ -1,7 +1,7 @@
 import React from 'react'
 import { SimpleGrid, Flex, Text, Box, Img, Button, VStack } from '@chakra-ui/react'
-import { FiInstagram , FiLinkedin , } from "react-icons/fi";
-import {FaFacebookSquare} from "react-icons/fa";
+import {  FiLinkedin , } from "react-icons/fi";
+import {FaFacebookSquare , FaInstagram } from "react-icons/fa";
 
 
 
@@ -53,7 +53,7 @@ function Section() {
        <Box
         color={'blue.500'}><FaFacebookSquare /></Box> 
 
-        <Box><FiInstagram /></Box>
+        <Box><FaInstagram /></Box>
 
         <Box><FiLinkedin /></Box>
       </Box>
